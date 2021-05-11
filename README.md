@@ -7,3 +7,4 @@ Basis-Wordpresstheme
 - Babel
 - VSCode
 - SFTP
+`
