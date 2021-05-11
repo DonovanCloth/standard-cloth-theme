@@ -1,6 +1,7 @@
 <?php
 
-function clotheme_scripts() {
+function clotheme_scripts()
+{
 
     if ($GLOBALS['pagenow'] != 'wp-login.php' && !is_admin()) {
 
@@ -27,11 +28,9 @@ function clotheme_scripts() {
             'mainscript',
             get_template_directory_uri() . '/assets/js/main.min.js',
             ['jquery'],
-            '1.0.0',
+            time(),
             true
         );
         wp_enqueue_script('mainscript');
     }
-
-
 }
