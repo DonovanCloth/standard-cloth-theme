@@ -45,7 +45,7 @@ function create_post_type_clotheme() {
       'show_in_rest'       => true
   );
     
-  register_post_type( 'Recipe', $args );
+  //register_post_type( 'Recipe', $args );
 }
 
 
@@ -79,7 +79,3 @@ function create_post_type_clotheme() {
 //   ));
  
 // }
-
-
-
-?>
