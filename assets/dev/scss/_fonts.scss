@@ -1,0 +1,59 @@
+/* 
+ Header
+*/
+
+h1 {
+  margin: 2rem 0 4rem 0;
+  font-size: 4rem;
+  font-weight: $black;
+  text-transform: lowercase;
+  font-family: $h-font;
+  color: $gold;
+  letter-spacing: 0.1rem;
+}
+
+h2 {
+  margin: 2rem 0 4rem 0;
+  font-size: 4rem;
+  font-weight: $light;
+  text-transform: lowercase;
+  font-family: $h-font;
+  color: $gold;
+  letter-spacing: 0.1rem;
+}
+
+h3 {
+  margin: 3rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+/* 
+ Text
+*/
+a {
+  color: $font;
+  text-decoration: none;
+}
+p,
+li,
+td {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+}
+
+article {
+  p {
+    margin-bottom: 2rem;
+  }
+}

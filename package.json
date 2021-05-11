@@ -1,0 +1,41 @@
+{
+  "type": "module",
+  "name": "clotheme",
+  "version": "1.0.0",
+  "description": "cloth. WP Starter Theme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devidelf/clotheme.git"
+  },
+  "scripts": {
+    "prettier": "prettier"
+  },
+  "author": "",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/Devidelf/clotheme/issues"
+  },
+  "homepage": "https://github.com/Devidelf/clotheme#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/register": "^7.10.1",
+    "@prettier/plugin-php": "^0.14.3",
+    "autoprefixer": "^9.8.0",
+    "babel-loader": "^8.1.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-wp-pot": "^2.4.3",
+    "prettier": "^2.1.1",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "core-js": "^3.6.5",
+    "gulp-cli": "^2.3.0"
+  }
+}

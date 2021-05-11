@@ -1,0 +1,312 @@
+main {
+  .mw {
+    #intro {
+      display: flex;
+      .image-container {
+        flex: 0 0 25rem;
+        margin-right: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+          margin-bottom: 3rem;
+        }
+        span {
+          font-weight: $regular;
+          line-height: 2;
+        }
+      }
+      .text-container {
+        h2 {
+          color: $light-green;
+          font-weight: $light-bold;
+          margin-bottom: 5rem;
+          position: relative;
+          &::after {
+            content: "";
+            position: absolute;
+            width: 4rem;
+            height: 0.5rem;
+            border-bottom: 0.25rem solid $light-green;
+            bottom: -2.5rem;
+            left: 0;
+          }
+          span {
+            display: block;
+            padding-top: 1rem;
+            font-size: 60%;
+            font-style: italic;
+            font-weight: $regular;
+          }
+          &::before {
+            content: "";
+            height: 4rem;
+            width: 18rem;
+            position: absolute;
+            left: 18.5rem;
+            bottom: 0;
+            // background-color: blue;url(/wp-content/themes/Akademieimpark/assets/img/svg/trees.svg)
+            background-image: url(/wp-content/themes/Akademieimpark/assets/img/svg/logo-no-text.svg);
+            // background-size: contain;
+          }
+        }
+        .links {
+          padding: 2.5rem 0;
+          a {
+            margin-right: 3rem;
+            border-radius: 3rem;
+            padding: 1rem 3rem;
+            background-color: $dark-green;
+            color: white;
+            &:first-child {
+              background-color: $light-green;
+            }
+            &:hover {
+              background-color: $light-green;
+            }
+          }
+        }
+      }
+    }
+
+    #contact-me {
+      background-color: rgba($color: $font-primary-color, $alpha: 0.1);
+      padding: 5rem;
+      h2 {
+        color: $light-green;
+        font-weight: $light-bold;
+        width: 40%;
+        margin-bottom: 5rem;
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          width: 4rem;
+          height: 0.5rem;
+          border-bottom: 0.25rem solid $light-green;
+          bottom: -2.5rem;
+          left: 0;
+        }
+        span {
+          font-style: italic;
+          display: block;
+          padding-top: 1rem;
+          font-size: 60%;
+          font-weight: $regular;
+        }
+      }
+      .link {
+        padding: 2.5rem 0;
+        a {
+          margin-right: 3rem;
+          border-radius: 3rem;
+          padding: 1rem 3rem;
+          background-color: $dark-green;
+          color: white;
+          &:first-child {
+            font-weight: $light-bold;
+            background-color: $light-green;
+          }
+        }
+      }
+    }
+
+    #story-time {
+      text-align: center;
+      img {
+        width: 100%;
+        margin-bottom: 5rem;
+      }
+      .wrapper {
+        padding: 0 5rem;
+
+        h2 {
+          color: $light-green;
+          font-weight: $light-bold;
+          margin-bottom: 5rem;
+          position: relative;
+          text-align: center;
+          &::after {
+            content: "";
+            position: absolute;
+            width: 4rem;
+            height: 0.5rem;
+            border-bottom: 0.25rem solid $light-green;
+            bottom: -2.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+          span {
+            font-style: italic;
+            display: block;
+            padding-top: 1rem;
+            font-size: 60%;
+            font-weight: $regular;
+          }
+        }
+
+        > p:nth-child(4) {
+          position: relative;
+          &::after {
+            content: "";
+            background-image: url(/wp-content/themes/Akademieimpark/assets/img/svg/logo-no-text.svg);
+            background-size: cover;
+            display: inline-block;
+            position: relative;
+            margin-left: 0.7rem;
+            top: 0.4rem;
+            height: 3rem;
+            width: 12rem;
+          }
+        }
+
+        // > p:nth-child(5) {
+        //   position: relative;
+        //   // left: -5rem;
+        //   padding-bottom: 7rem;
+        //   &::before {
+        //     content: "";
+        //     height: 4.5rem;
+        //     width: 18rem;
+        //     position: absolute;
+        //     left: 50%;
+        //     transform: translateX(-50%);
+        //     bottom: 1rem;
+        //     // background-color: blue;url(/wp-content/themes/Akademieimpark/assets/img/svg/trees.svg)
+        //     background-image: url(/wp-content/themes/Akademieimpark/assets/img/use/logo-intro.png);
+        //     background-size: cover;
+        //   }
+        // }
+
+        .more {
+          a {
+            font-weight: bold;
+            color: $light-green;
+            border-bottom: solid 1px $light-green;
+            position: relative;
+            top: 1.5rem;
+          }
+          .content {
+            margin: 0;
+            transition: all 0.5s;
+            max-height: 0;
+            overflow: hidden;
+            p:first-child {
+              margin-top: 0;
+            }
+          }
+          &--visible {
+            .content {
+              max-height: 70rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  main {
+    .mw {
+      #intro {
+        display: flex;
+
+        flex-direction: column; //
+        align-items: center; //
+
+        .image-container {
+          margin-right: 0;
+          padding-bottom: 2.5rem;
+          img {
+            max-width: 60%;
+          }
+        }
+        .text-container {
+          text-align: center; //
+
+          h2 {
+            margin-bottom: 10rem;
+
+            &::after {
+              left: 50%; //
+              bottom: -7rem;
+              transform: translateX(-50%); //
+            }
+            &::before {
+              left: 50%;
+              transform: translateX(-50%); //
+              bottom: -5rem;
+            }
+          }
+        }
+      }
+
+      #contact-me {
+        padding: 2.5rem; //
+        text-align: center; //
+        h2 {
+          margin-left: auto; //
+          margin-right: auto; //
+          width: 80%; //
+          &::after {
+            left: 50%; //
+            transform: translateX(-50%); //
+          }
+        }
+        .link {
+          a {
+            margin-right: 0rem;
+          }
+        }
+      }
+
+      #story-time {
+        .wrapper {
+          padding: 0 2.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    .mw {
+      #intro {
+        padding: 0 2.5rem;
+        .links {
+          padding: 2.5rem 0;
+          display: flex; //
+          flex-direction: column; //
+          align-items: center; //
+          a {
+            width: 20rem;
+            margin-top: 2rem;
+            margin-right: 0 !important;
+          }
+        }
+      }
+
+      #contact-me {
+        padding: 2.5rem; //
+        text-align: center; //
+        h2 {
+          margin-left: auto; //
+          margin-right: auto; //
+          width: 80%; //
+          &::after {
+            left: 50%; //
+            transform: translateX(-50%); //
+          }
+        }
+      }
+
+      #story-time {
+        .wrapper {
+          padding: 0 2.5rem;
+        }
+      }
+    }
+  }
+}

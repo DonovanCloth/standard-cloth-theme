@@ -1,0 +1,32 @@
+#cookie-law-info-bar {
+  padding: 4rem !important;
+  .cli_messagebar_head {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 120%;
+    line-height: 1.15;
+    margin: 2rem;
+  }
+  .cli-bar-container,
+  .cli-bar-btn_container {
+    margin-left: 0;
+    flex-direction: column;
+    line-height: 1.15;
+    a {
+      padding: 1rem;
+    }
+  }
+
+  .cli-bar-btn_container {
+    div {
+      margin-top: 2rem;
+    }
+    div:last-child {
+      a {
+        display: inline !important;
+        font-weight: 400;
+        text-decoration: none;
+      }
+    }
+  }
+}

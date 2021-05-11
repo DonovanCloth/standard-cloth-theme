@@ -1,0 +1,58 @@
+# Copyright (C) 2020 clotheme
+# This file is distributed under the same license as the clotheme package.
+msgid ""
+msgstr ""
+"Project-Id-Version: clotheme\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: index.php:7
+msgid "CloTHEME"
+msgstr ""
+
+#: includes/cpt.php:10
+msgid "clothposts"
+msgstr ""
+
+#: includes/cpt.php:11
+msgid "clothpost"
+msgstr ""
+
+#: includes/cpt.php:12, includes/cpt.php:13
+msgid "Hinzufügen"
+msgstr ""
+
+#: includes/cpt.php:14, includes/cpt.php:15
+msgid "Bearbeiten"
+msgstr ""
+
+#: includes/cpt.php:16
+msgid "Neu"
+msgstr ""
+
+#: includes/cpt.php:17, includes/cpt.php:18
+msgid "Ansehen"
+msgstr ""
+
+#: includes/cpt.php:19
+msgid "Suchen"
+msgstr ""
+
+#: includes/cpt.php:20
+msgid "Keine Posts gefunden"
+msgstr ""
+
+#: includes/cpt.php:21
+msgid "Keine Posts im Papierkorb"
+msgstr ""
+
+#: includes/nav.php:8
+msgid "Header Menu"
+msgstr ""

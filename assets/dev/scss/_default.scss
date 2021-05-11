@@ -1,0 +1,14 @@
+.default-container {
+  padding: 10rem 5rem;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: $light-green;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+}

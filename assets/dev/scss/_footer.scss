@@ -1,0 +1,51 @@
+.footer {
+  border-top: 0.5rem solid $light-green;
+  padding: 5rem 0;
+  .mw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a,
+    p {
+      display: block;
+      margin: 0;
+      line-height: 1.5;
+    }
+    .logo {
+      svg {
+        height: 5rem;
+      }
+    }
+    span {
+      font-weight: $bold;
+      color: $light-green;
+      margin-right: 1rem;
+    }
+    .sub-pages > a {
+      font-weight: 500;
+      color: $light-green;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    .mw {
+      flex-direction: column; //
+      text-align: center; //
+
+      .logo {
+        padding-bottom: 3rem;
+      }
+      a,
+      p {
+        padding-top: 2rem; //
+      }
+
+      .sub-pages,
+      .phone {
+        margin-top: 2rem;
+      }
+    }
+  }
+}
