@@ -20,19 +20,6 @@ html {
   overflow-x: hidden;
 }
 
-body {
-  font-family: $p-font;
-  font-size: 1.4rem;
-  font-weight: $light;
-  color: $font-primary-color;
-}
-
-@media (max-width: 1024px) {
-  body {
-    padding-top: 9rem;
-  }
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -55,7 +42,7 @@ li {
 
 a {
   text-decoration: none;
-  color: $font-primary-color;
+  color: $primary-font;
 }
 
 p {
@@ -83,13 +70,6 @@ h3:first-child {
 .container-padding {
   padding-left: 5rem;
   padding-right: 5rem;
-}
-
-.container-margin {
-  margin: 7rem 0;
-  &:first-child {
-    margin-top: 0;
-  }
 }
 
 @media (max-width: 500px) {

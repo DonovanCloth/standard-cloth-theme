@@ -1,22 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+// Width
+$mw: 130rem;
 
 // Colors
-
-$font-primary-color: #707070;
-$font-secondary-color: #474f1e;
-
-$light-green: #8eb240;
-$dark-green: #474f1e;
+$primary-font: Arial, Helvetica, sans-serif;
+$secondary-font: 'Times New Roman', Times, serif;
 
 // Fonts
+$primary-font: #484848;
+$secondary-font: #808080;
 
-$p-font: "Roboto", sans-serif;
 
+//Font weights
 $light: 300;
 $regular: 400;
 $light-bold: 500;
 $bold: 700;
 
-// Width
 
-$mw: 140rem;
