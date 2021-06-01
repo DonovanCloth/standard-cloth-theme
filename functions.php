@@ -66,7 +66,7 @@ require_once get_template_directory() . '/includes/cpt.php';
 	ACF
 \*------------------------------------*/
 
-require_once get_template_directory() . '/includes/acf.php';
+// require_once get_template_directory() . '/includes/acf.php';
 
 add_action('wp_enqueue_scripts', 'load_dashicons_front_end');
 function load_dashicons_front_end()

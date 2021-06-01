@@ -4,7 +4,8 @@
                 <div class="footer-wrapper">
 
                         <div class="logo">
-                                <?php echo file_get_contents(get_template_directory_uri() . "/logopath.svg") ?>
+                                <?php // file_get_contents(get_template_directory_uri() . "/logopath.svg") 
+                                ?>
                         </div>
 
                         <div class="adress">

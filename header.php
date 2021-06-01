@@ -32,7 +32,8 @@
             <div class="logo-container">
                 <a href="/" class="logo">
                     <h1 class="visually-hidden">Title here</h1>
-                    <?php echo file_get_contents(get_template_directory_uri() . '/assets/img/svg/logo-full.svg') ?>
+                    <?php // file_get_contents(get_template_directory_uri() . '/assets/img/svg/logo-full.svg') 
+                    ?>
                 </a>
             </div>
             <div>
