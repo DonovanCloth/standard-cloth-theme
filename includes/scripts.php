@@ -5,24 +5,23 @@ function clotheme_scripts()
 
     if ($GLOBALS['pagenow'] != 'wp-login.php' && !is_admin()) {
 
-        // create swiper config.js if needed
         // wp_register_script(
-        //     'swiperjs',
-        //     'https://unpkg.com/swiper/swiper-bundle.min.js',
-        //     [],
+        //     'slick',
+        //     '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js',
+        //     array('jquery'),
         //     '1.0.0',
         //     true
         // );
-        // wp_enqueue_script('swiperjs');
+        // wp_enqueue_script('slick');
 
         // wp_register_script(
-        //     'swiper-config',
-        //     get_template_directory_uri() . '/assets/js/swiper-config.js',
-        //     [],
+        //     'slick-config',
+        //     get_template_directory_uri() . '/assets/js/slick-config.js',
+        //     array('jquery'),
         //     '1.0.0',
         //     true
         // );
-        // wp_enqueue_script('swiper-config');
+        // wp_enqueue_script('slick-config');
 
         wp_register_script(
             'mainscript',

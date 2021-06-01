@@ -1,11 +1,11 @@
 <?php
-/* Template Name: Kontakt */
+/* Template Name: contact */
 ?>
 
 <?php get_header(); ?>
 
 <main role="main">
-  
+
 </main>
 
 

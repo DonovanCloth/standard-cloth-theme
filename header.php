@@ -29,23 +29,23 @@
     <header>
         <div class="header-wrapper">
 
-            	<div class="logo-container">
-                    <a href="/" class="logo">
-                        <h1 class="visually-hidden">Akademie im Park | Dr. Dorothee Dahl Ph.D. - Online Coaching | Seminare | Training</h1>
-                        <?php echo file_get_contents(get_template_directory_uri() . '/assets/img/svg/logo-full.svg') ?>
-                    </a>
-				</div>
-				<div>
-                    <nav class="nav" role="navigation">
-                        <h2 class="visually-hidden">Navigation</h2>
-                        <?php clotheme_nav();
-                        ?>
-                    </nav>
+            <div class="logo-container">
+                <a href="/" class="logo">
+                    <h1 class="visually-hidden">Title here</h1>
+                    <?php echo file_get_contents(get_template_directory_uri() . '/assets/img/svg/logo-full.svg') ?>
+                </a>
+            </div>
+            <div>
+                <nav class="nav" role="navigation">
+                    <h2 class="visually-hidden">Navigation</h2>
+                    <?php clotheme_nav();
+                    ?>
+                </nav>
 
-                    <div class="hamburger-btn"><span class="bar first-bar"></span><span class="bar second-bar"></span><span class="bar third-bar"></span></div>
-                    
-                    <div class="opacity-layer"></div>
-				</div>
+                <div class="hamburger-btn"><span class="bar first-bar"></span><span class="bar second-bar"></span><span class="bar third-bar"></span></div>
+
+                <div class="opacity-layer"></div>
+            </div>
 
         </div>
     </header>
