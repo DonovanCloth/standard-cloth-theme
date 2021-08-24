@@ -1,2 +1,1 @@
-import "./modules/hamburger";
-import "./modules/drop-down";
+import "./modules/mymodule.js";
